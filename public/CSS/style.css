@@ -1,0 +1,406 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*HEADER*/
+  .container_style1{
+    background: url(public/asset/bg1.jpg);
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    text-align: center;
+  
+    color: white;
+    justify-content: center;
+  }
+  
+  .navbar_style{
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px 0 20px 0;
+  }
+  
+  .navbrand_style{
+    padding:0 100px 0 100px;
+  }
+  
+  .navitem_style{
+    font-size: 12px;
+    margin: 0 10px;
+  }
+  
+  .navbarright_style{
+    padding-right: 150px;
+  }
+  
+  .header h1{
+    font-weight: 600;
+    font-size: 72px;
+    letter-spacing: 3px;
+    padding-top: 200px;
+  }
+  
+  .header p{
+    font-weight:250;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 2px;
+    padding-top: 20px;
+  }
+  
+  .btn_style1{
+    padding: 15px 6vw;
+    margin-top: 50px;
+  }
+  
+  p.thestory{
+    font-size: 12px;
+    padding-top: 200px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  /*THE GAMES*/
+  .container_style2{
+    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/bg\ image\ 2.jpg);
+    min-height: 100%;
+    display: flex;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+  
+    align-items:flex-start;
+  
+    color: white;
+  
+  }
+  
+  .thegames{
+  padding-top: 100px;
+  padding-left: 100px;
+  }
+  
+  /*///////////CAROUSEL*/
+  .carousel{
+    position: relative;
+    width: 850px;
+    height: 450px;
+    margin: auto auto;
+  }
+  
+  .carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Ini biar ngecrop dan responsive*/
+  
+  }
+  
+  .carousel__track-container{
+    height: 100%;
+    position: relative;
+  }
+  
+  .carousel__track{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .carousel__button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+  }
+  
+  .carousel__button--left{
+    transform:translateY(-50%) rotate(-180deg);
+    left: -50px;
+    height: 40px;
+  }
+  
+  .carousel__button--left img{
+    height: 100%;
+  }
+  
+  .carousel__button--right{
+    right: -50px;
+    height: 40px;
+  }
+  
+  .carousel__button--right img{
+    height: 100%;
+  }
+  
+  .carousel__button img{
+    width: 50px;
+  }
+  
+  .carousel__nav{
+    display: flex;
+    justify-content: center;
+    padding:0;
+    transform: translateY(-150%);
+  }
+  
+  .carousel__indicator{
+    border-radius: 50%;
+    border: 0;
+    width: 15px;
+    height: 15px;
+    background:rgba(255, 255, 255, 0.3);
+    margin: 0 12px;
+  }
+  
+  .carousel__indicator.current-slide{
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  
+  /*FEATURES*/
+  .container_style3{
+    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/Group.jpg);
+    min-height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: white;
+    border: none;
+  }
+  
+  .thefeatures{
+    padding-top:100px;
+    max-width: 100%;
+    padding-left:55%;
+  }
+  
+  .thefeatures h1{
+    letter-spacing: 3px;
+    font-size: 56px;
+    /*color: rgba(255,181,72,1);*/
+  }
+  
+  .thefeatures_tittle p{
+    font-size: 24px;
+  }
+  
+  .thefeatures_content{
+    display: flex;
+  }
+  
+  .progressbar{
+    padding-top: 50px;
+  }
+  
+  .progressbar .top, .bottom{
+    transform: translateX(-7px);
+  }
+  
+  .progressbar .bottom_{
+    transform: translateX(-7px);
+    padding-top: 50px;
+  }
+  
+  .thefeatures_description{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    max-width: 400px;
+  }
+  
+  .thefeatures_p1, .thefeatures_p3{
+    font-size: 24px;
+    color: rgba(255,181,72,1);
+  }
+  
+  .thefeatures_p2{
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  
+  .thefeatures_p3{
+    padding-top: 20px;
+  }
+  
+  /*REQUIREMENTS*/
+  .container_style4{
+    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/Group\ 2.jpg);
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    color: white;
+  
+    padding-top: 10%;
+    padding-left: 10%;
+  
+  }
+  
+  .table_requirements{
+    max-width: 600px;
+    padding-top: 50px;
+  }
+  
+  .table_requirements_content{
+    width: 250px;
+    height: 100px;
+  }
+  
+  .requirements_content_title{
+    font-size: 24px;
+    color: rgba(255,181,72,1);
+  }
+  
+  .requirements_content{
+    font-size: 18px;
+    color: white;
+  }
+  
+  /*TOPSCORES + NEWSLETTER*/
+  .container_style5{
+    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/bg\ image\ 3.jpg);
+    min-height: 200%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    margin: 0;
+    padding: 0;
+  
+    color: white;
+  
+  }
+  
+  .row_style{
+  padding-top: 5%;
+  max-width: 1388px;
+  }
+  
+  .btn_style2{
+    padding: 15px 4vw;
+    margin-top: 20px;
+  }
+  
+  .image_profile{
+    display: inline;
+    width: 100%;
+  }
+  
+  .card_style{
+    background-color: rgba(255,255,255,0.08);
+    width: 350px;
+    margin-bottom: 40px;
+  }
+  
+  .card_title_name{
+    color: rgba(255,181,72,1);
+  }
+  
+  .twitter_card{
+    object-fit: contain ;
+    float: right;
+  }
+  
+  .row_style2{
+    padding-top: 20%;
+    max-width: 1388px;
+  }
+  
+  .navbarbottom{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    margin-bottom: auto;
+    font-size: 12px;
+  }
+  
+  .navbarbottom_item{
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  
+  .image_piala{
+    padding-bottom: 100px;
+    padding-left: 160px;
+  }
+  
+  .col-6{
+    width: 650px;
+  }
+  
+  .newslettersubscribe{
+    padding-top: 100px;
+  }
+  
+  .col_stylebottom{
+    padding-right: 10pt;
+  }
+  
+  .hr_style{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ::placeholder {
+   color: rgba(255,181,72,1);
+  }
+  
+  ::placeholder::first-line{
+  color: rgba(255,255,255,1);
+  
+  }
+  
+  .btn_style3{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  
