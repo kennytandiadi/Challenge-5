@@ -7,7 +7,7 @@ body{
   
   /*HEADER*/
   .container_style1{
-    background: url(public/asset/bg1.jpg);
+    background: url(asset/bg1.jpg);
     min-height: 100%;
   
     /* Center and scale the image nicely */
@@ -87,7 +87,7 @@ body{
   
   /*THE GAMES*/
   .container_style2{
-    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/bg\ image\ 2.jpg);
+    background: url(asset/bg2.jpg);
     min-height: 100%;
     display: flex;
   
@@ -195,7 +195,7 @@ body{
   
   /*FEATURES*/
   .container_style3{
-    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/Group.jpg);
+    background: url(asset/Group.jpg);
     min-height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -265,7 +265,7 @@ body{
   
   /*REQUIREMENTS*/
   .container_style4{
-    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/Group\ 2.jpg);
+    background: url(asset/Group2.jpg);
     min-height: 100%;
   
     /* Center and scale the image nicely */
@@ -302,7 +302,7 @@ body{
   
   /*TOPSCORES + NEWSLETTER*/
   .container_style5{
-    background: url(/Users/kennytandiadi/Downloads/Coding/Binar_Academy/Challenge_Chapter_3-wbs/Binar\ challenge\ FW\ C3/bg\ image\ 3.jpg);
+    background: url(asset/bg3.jpg);
     min-height: 200%;
   
     /* Center and scale the image nicely */
