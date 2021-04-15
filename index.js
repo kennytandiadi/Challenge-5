@@ -17,6 +17,29 @@ app.get('/game',(req,res)=>{
     res.render('Game')
 })
 
+const users =[]
+
+app.get('/coba',(req,res)=>{
+    res.render('Coba')
+})
+
+app.post('/coba', (req,res)=>{
+    const{email,password} = req.body
+    users.push({email,password})
+    console.log(users);
+    res.redirect('/game')
+})
+
+app.get('/users',(req,res,next)=>{
+    res.json([{
+        id:'Kenny',
+        password:'kenny'
+    },{
+        id:'Tandiadi',
+        password:'tandiadi'
+    }])
+})
+
 app.listen(PORT, () =>{
     console.log(`app is listening on PORT ${PORT}`)
 })
