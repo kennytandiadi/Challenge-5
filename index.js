@@ -17,14 +17,15 @@ app.get('/game',(req,res)=>{
     res.render('Game')
 })
 
+//user login
 const users =[]
 
-app.get('/coba',(req,res)=>{
-    res.render('Coba')
+app.get('/login',(req,res)=>{
+    res.render('login')
 })
 
-app.post('/coba', (req,res)=>{
-    const{email,password} = req.body
+app.post('/login', (req,res)=>{
+    const{user,password} = req.body
     users.push({email,password})
     console.log(users);
     res.redirect('/game')
