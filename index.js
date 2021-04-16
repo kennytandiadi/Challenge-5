@@ -9,14 +9,6 @@ app.use(express.static(__dirname + '/public'))
 app.set('view engine','ejs') 
 app.set('views','./views')
 
-app.get('/',(req,res)=>{
-    res.render('Home')
-})
-
-app.get('/game',(req,res)=>{
-    res.render('Game')
-})
-
 //user login
 const users =[]
 
@@ -26,15 +18,23 @@ app.get('/login',(req,res)=>{
 
 app.post('/login', (req,res)=>{
     const{user,password} = req.body
-    users.push({email,password})
-    console.log(users);
+    users.push({user,password})
+    console.log({user});
     res.redirect('/game')
+})
+
+
+app.get('/',(req,res)=>{
+    res.render('Home')
+})
+
+app.get('/game',(req,res)=>{
+    res.render('Game')
 })
 
 app.get('/users',(req,res,next)=>{
     res.json([{
-        id:'Kenny',
-        password:'kenny'
+       users
     },{
         id:'Tandiadi',
         password:'tandiadi'
